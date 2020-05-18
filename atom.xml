@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Amewin | 来自未来的全球史</title>
+  <title>Amewin | 观察者的宇宙史</title>
   <icon>https://amewin.github.io/icon.png</icon>
   <subtitle>喜欢编程、游戏、动漫、小说、各种宅。</subtitle>
   <link href="/atom.xml" rel="self"/>
