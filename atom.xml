@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Amewin | 自然史</title>
+  <title>Amewin | 预言史</title>
   <icon>https://amewin.github.io/icon.png</icon>
   <subtitle>喜欢编程、游戏、动漫、小说、各种宅。</subtitle>
   <link href="/atom.xml" rel="self"/>
@@ -68,17 +68,11 @@
     <link href="https://amewin.github.io/2020/05/17/hello-world/"/>
     <id>https://amewin.github.io/2020/05/17/hello-world/</id>
     <published>2020-05-17T05:50:11.000Z</published>
-    <updated>2020-05-17T06:03:57.361Z</updated>
+    <updated>2020-05-18T14:05:08.005Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
-        
-      
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
     
     </summary>
     
