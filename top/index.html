@@ -101,7 +101,7 @@
       <h1 class="site-title">Amewin | 观察者的宇宙史</h1>
       <span class="logo-line-after"><i></i></span>
     </a>
-      <p class="site-subtitle" itemprop="description">喜欢自然宇宙、编程、游戏、动漫、小说、各种宅。<br>喜欢古老的预言，我有一些大胆的猜测。<br>以下内容，是本人的一些猜测，没有科学依据<br> 自行判断其真假。</p>
+      <p class="site-subtitle" itemprop="description">热爱自然科学、编程、游戏、动漫、小说、各种宅。<br>喜欢古老的预言，我有一些大胆的猜测。<br>没有科学依据，自行判断真假。</p>
   </div>
 
   <div class="site-nav-right">
@@ -340,25 +340,40 @@ AV.init({
         </a>
       </div>
       <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
         <span class="site-state-item-count">2</span>
-        <span class="site-state-item-name">分类</span>
+        <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
         <span class="site-state-item-count">2</span>
-        <span class="site-state-item-name">标签</span>
+        <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
 </div>
   <div class="links-of-author motion-element">
       <span class="links-of-author-item">
-        <a href="https://github.com/Amewin/" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;Amewin&#x2F;" rel="external nofollow noopener noreferrer" target="_blank"><i class="fa fa-fw fa-github"></i></a>
+        <a href="https://github.com/Amewin/" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;Amewin&#x2F;" rel="external nofollow noopener noreferrer" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
       </span>
       <span class="links-of-author-item">
-        <a href="mailto:zsdfcc@163.com" title="E-Mail → mailto:zsdfcc@163.com" rel="external nofollow noopener noreferrer" target="_blank"><i class="fa fa-fw fa-envelope"></i></a>
+        <a href="mailto:zsdfcc@163.com" title="E-Mail → mailto:zsdfcc@163.com" rel="external nofollow noopener noreferrer" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
       </span>
   </div>
 
 
+  <div class="links-of-blogroll motion-element">
+    <div class="links-of-blogroll-title">
+      <i class="fa fa-fw fa-link"></i>
+      友情链接
+    </div>
+    <ul class="links-of-blogroll-list">
+        <li class="links-of-blogroll-item">
+          <a href="http://yearito.cn/" title="http:&#x2F;&#x2F;yearito.cn&#x2F;" rel="external nofollow noopener noreferrer" target="_blank">yearito</a>
+        </li>
+    </ul>
+  </div>
 
       </div>
 
@@ -663,6 +678,7 @@ NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
 });
 </script>
 
+
   
   <!-- 爆炸烟花 -->
   <!--
@@ -672,6 +688,51 @@ NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
 -->
 <!-- 页面点击小红心 -->
 <script type="text/javascript" src="/js/src/clicklove.js"></script>
+<!-- 
+<script src="//code.jquery.com/jquery-3.0.0.min.js"></script>
+  
 
+  <script src="/js/wobblewindow.js"></script>
+  <script>
+    //只在桌面版网页启用特效
+    if( window.innerWidth > 768  ){
+      $(document).ready(function () {
+        
+          $('#header').wobbleWindow({
+            radius: 50,
+            movementTop: false,
+            movementLeft: false,
+            movementRight: false,
+            debug: false,
+          });
+        
+
+        
+          $('#sidebar').wobbleWindow({
+            radius: 50,
+            movementLeft: false,
+            movementTop: false,
+            movementBottom: false,
+            position: 'fixed',
+            debug: false,
+          });
+        
+
+        
+          $('#footer').wobbleWindow({
+            radius: 50,
+            movementBottom: false,
+            movementLeft: false,
+            movementRight: false,
+            offsetX: true,
+            position: 'absolute',
+            debug: false,
+          });
+        
+      });
+    }
+  </script>
+
+  -->
 </body>
 </html>
