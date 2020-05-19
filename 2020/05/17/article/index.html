@@ -511,7 +511,7 @@
   </div>
 <div class="night-mode motion-element">
   <a role="button" class="night-btn">
-    <i class="fa fa-lightbulb-o"></i>
+    <i class="fa fa-"></i>
     Night Mode
   </a>
 </div>
@@ -583,6 +583,7 @@
 	}
 	show_date_time();
 </script>
+
 
 
 	<div class="translate-style">
@@ -818,7 +819,6 @@ NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
     var GUEST = ['nick', 'mail', 'link'];
     var guest = 'nick,mail';
     guest = guest.split(',').filter(item => {
-	//console.log(item)
       return GUEST.includes(item);
     });
     new Valine({
@@ -837,8 +837,7 @@ NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
       recordIP   : false,
       serverURLs : ''
     });
-	
-  }, console.log(window.Valine));
+  }, window.Valine);
 });
 </script>
 
