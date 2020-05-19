@@ -326,17 +326,43 @@
     
         
 
+
+<!-- JS库 clipboard 拷贝内容到粘贴板-->
+<script src="https://cdn.bootcss.com/clipboard.js/2.0.1/clipboard.min.js"></script>
+
+<!-- JS库 sweetalert 显示提示信息-->
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
 <div>
 <ul class="post-copyright">
+  <!-- 本文标题 -->
+  <li>
+    <strong>本文标题： </strong>
+    Hello World
+  </li>
   <li class="post-copyright-author">
     <strong>本文作者： </strong>Amewin
   </li>
+  <!-- 创建时间 -->
+  <li>
+    <strong>创建时间： </strong>
+    2020年05月17日 - 13时05分
+  </li>
+
+  <!-- 修改时间 -->
+  <li>
+    <strong>修改时间： </strong>
+    2020年05月19日 - 02时05分
+  </li>
+
+  <!-- 引用链接 -->
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
     <a href="https://amewin.github.io/2020/05/17/hello-world/" title="Hello World">https://amewin.github.io/2020/05/17/hello-world/</a>
+    <span class="copy-path" title="点击复制引用链接"><i style="cursor: pointer" class="fa fa-clipboard" data-clipboard-text="[Amewin's Blog | Hello World](https://amewin.github.io/2020/05/17/hello-world/)" aria-label="post.copy_success"></i></span>
   </li>
   <li class="post-copyright-license">
-    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow noopener noreferrer" target="_blank"><i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/%3Ca%20href=%22https://creativecommons.org/licenses/by-nc-sa/4.0/%22%20rel=%22external%20nofollow%22%20target=%22_blank%22%3ECC%20BY-NC-SA%204.0%3C/a%3E/4.0/" rel="external nofollow noopener noreferrer" target="_blank"><i class="fa fa-fw fa-creative-commons"></i><a href="HTTPS://CREATIVECOMMONS.ORG/LICENSES/BY-NC-SA/4.0/" rel="external nofollow noopener noreferrer" target="_blank">CC BY-NC-SA 4.0</a></a> 许可协议。转载请注明出处！
   </li>
 </ul>
 </div>
@@ -350,6 +376,11 @@
           </div>
 
         
+  <div class="post-widgets">
+    <div class="wp_rating">
+      <div id="wpac-rating"></div>
+    </div>
+  </div>
 
 
         
@@ -691,6 +722,26 @@
 
 
 
+  <script>
+  if (CONFIG.page.isPost) {
+    wpac_init = window.wpac_init || [];
+    wpac_init.push({
+      widget: 'Rating',
+      id    : fc899bea821ad67dba3e13c317b89a1ead74e5aca1b362af5e83808f9d520291,
+      el    : 'wpac-rating',
+      color : 'fc6423'
+    });
+    (function() {
+      if ('WIDGETPACK_LOADED' in window) return;
+      WIDGETPACK_LOADED = true;
+      var mc = document.createElement('script');
+      mc.type = 'text/javascript';
+      mc.async = true;
+      mc.src = '//embed.widgetpack.com/widget.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mc, s.nextSibling);
+    })();
+  }
+  </script>
 
   
 <script src="/js/local-search.js"></script>
