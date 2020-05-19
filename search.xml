@@ -26,27 +26,6 @@
       </tags>
   </entry>
   <entry>
-    <title>使用Hexo</title>
-    <url>/2020/05/17/%E4%BD%BF%E7%94%A8Hexo/</url>
-    <content><![CDATA[<hr>
-<blockquote>
-<p>我翻开历史一查，这历史没有年代。歪歪斜斜的每页上都写着“仁义道德”几个字，我横竖睡不着，仔细看了半夜，才从字缝里看出来，满本上都写着两个字“吃人”！</p>
-<p>–鲁迅《狂人日记》</p>
-</blockquote>
-<a id="more"></a>
-
-<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p> Hexo 安装主题的方式非常简单，只需要将主题文件拷贝至站点目录的 themes 目录下， 然后修改下配置文件即可。<br>主题文件的下载主要有两种：</p>
-<ul>
-<li>NexT主题zip文件下载，解压到站点目录的 themes 目录下</li>
-<li>Git 克隆最新版本</li>
-</ul>
-<ul>
-<li>NexT主题zip文件下载，解压到站点目录的 themes 目录下</li>
-<li>Git 克隆最新版本</li>
-</ul>
-]]></content>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/2020/05/17/hello-world/</url>
     <content><![CDATA[<blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit lacus ut purus iaculis feugiat. Sed nec tempor elit, quis aliquam neque. Curabitur sed diam eget dolor fermentum semper at eu lorem.</p>
@@ -89,5 +68,26 @@
         <tag>Hexo</tag>
         <tag>Markdown</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>使用Hexo</title>
+    <url>/2020/05/17/%E4%BD%BF%E7%94%A8Hexo/</url>
+    <content><![CDATA[<hr>
+<blockquote>
+<p>我翻开历史一查，这历史没有年代。歪歪斜斜的每页上都写着“仁义道德”几个字，我横竖睡不着，仔细看了半夜，才从字缝里看出来，满本上都写着两个字“吃人”！</p>
+<p>–鲁迅《狂人日记》</p>
+</blockquote>
+<a id="more"></a>
+
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p> Hexo 安装主题的方式非常简单，只需要将主题文件拷贝至站点目录的 themes 目录下， 然后修改下配置文件即可。<br>主题文件的下载主要有两种：</p>
+<ul>
+<li>NexT主题zip文件下载，解压到站点目录的 themes 目录下</li>
+<li>Git 克隆最新版本</li>
+</ul>
+<ul>
+<li>NexT主题zip文件下载，解压到站点目录的 themes 目录下</li>
+<li>Git 克隆最新版本</li>
+</ul>
+]]></content>
   </entry>
 </search>
