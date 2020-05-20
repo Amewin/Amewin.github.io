@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://amewin.github.io/"/>
-  <updated>2020-05-19T01:37:54.402Z</updated>
+  <updated>2020-05-20T17:01:23.307Z</updated>
   <id>https://amewin.github.io/</id>
   
   <author>
@@ -15,6 +15,43 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>超前宇宙史</title>
+    <link href="https://amewin.github.io/2020/05/21/history/"/>
+    <id>https://amewin.github.io/2020/05/21/history/</id>
+    <published>2020-05-20T16:55:04.000Z</published>
+    <updated>2020-05-20T17:01:23.307Z</updated>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;尊重声明，以下是本人结合火星男孩，KFK，2062、2072作的一些大胆的推测，&lt;strong&gt;没有科学依据&lt;/strong&gt;，但会结合一些网传的档案进行论证，即使提前知道未来演变也许不会有什么意义，我们无力改变。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;530&quot; height=&quot;86&quot; src=&quot;//music.163.com/outchain/player?type=2&amp;id=1444255413&amp;auto=0&amp;height=66&quot;&gt;&lt;/iframe&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;目的：是给后人起到一些警示作用，作者并不是专业的写客，语文刚好59分。当然本人对科技和未来充满的向往，无论好坏，将来如期而至。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+    
+      <category term="超前宇宙学" scheme="https://amewin.github.io/categories/%E8%B6%85%E5%89%8D%E5%AE%87%E5%AE%99%E5%AD%A6/"/>
+    
+    
+      <category term="火星男孩" scheme="https://amewin.github.io/tags/%E7%81%AB%E6%98%9F%E7%94%B7%E5%AD%A9/"/>
+    
+      <category term="KFK" scheme="https://amewin.github.io/tags/KFK/"/>
+    
+      <category term="2060" scheme="https://amewin.github.io/tags/2060/"/>
+    
+      <category term="2062" scheme="https://amewin.github.io/tags/2062/"/>
+    
+      <category term="2072" scheme="https://amewin.github.io/tags/2072/"/>
+    
+  </entry>
   
   <entry>
     <title>使用Hexo</title>
